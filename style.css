@@ -5,6 +5,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* navbar******************************************/
 .navbar {
     
     width: 100%;
@@ -71,6 +73,8 @@
     width: 268px;
     height: 33px;
   }
+
+  
   /* about-us */
   .about-us{
     /* background-color: aqua; */
@@ -247,18 +251,26 @@ margin-bottom: 2cm;
 }
 
 
-
-.logos2{
-  display: flex;
-  gap: 1.75cm;
-  justify-content: center;
-}
 .logos1{
   display: flex;
   gap: 20px;
  
   
-} 
+}
+.logos2{
+  display: flex;
+  gap: 1.75cm;
+  justify-content: center;
+}
+ .logos2 svg path{
+  fill: #a3a8a7;
+ }
+ .logos2 svg #path1:hover{
+  fill:#8AD223;
+ }
+ .logos2 svg #path2:hover{
+  fill: #01A3D4;
+ }
 
 
 .text-brands{
@@ -353,6 +365,17 @@ margin-bottom: 2cm;
 .grids img{
   width: 50px;
 }
+
+.grids h3{
+color: #00b39b;
+font-family: 'Work Sans', sans-serif;
+font-weight: 400;
+}
+.grids p{
+  color: #747474;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  }
 .grid-worlds{
   display: flex;
   gap: 20px;
@@ -408,11 +431,12 @@ margin-bottom: 2cm;
 
 .galerie .card-text p{
   font-family: 'Work Sans', sans-serif;
-  font-weight: 200;
-  color:#a4a8a8;
+  font-weight: 300;
+  color:#ababab;
   text-align: center;
   padding-top: 0.5cm;
   line-height: 30px;
+  font-size: 15px;
 
 
 }
@@ -476,8 +500,8 @@ font-weight: 400;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
 }
-.join-us button{
-  background-color: #3d83df;;
+.join-us a button{
+  background-color: #3d83df;
   font-size: 12px;
   color: white;
   border: none;
@@ -486,6 +510,9 @@ font-weight: 400;
   height: 35px;
   widows: 120px;
 
+}
+.join-us a button:hover{
+  background-color: #0b73fc;
 }
 /* footer ********************************/
 .main-footer{
@@ -501,7 +528,7 @@ font-weight: 400;
  height: 120px;
  font-size: 15px;
     color: #ababab;
-    gap: 10px;
+  
 }
 .section p a{
   text-decoration: none;
